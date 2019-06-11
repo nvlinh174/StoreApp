@@ -12,4 +12,13 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <ProjectReference Include="..\StoreApp.Application\StoreApp.Application.csproj" />
+    <ProjectReference Include="..\StoreApp.Data.EF\StoreApp.Data.EF.csproj" />
+    <ProjectReference Include="..\StoreApp.Data\StoreApp.Data.csproj" />
+    <ProjectReference Include="..\StoreApp.Infrastructure\StoreApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\StoreApp.Utilities\StoreApp.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>
